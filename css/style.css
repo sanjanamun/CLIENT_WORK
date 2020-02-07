@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #F3F6FC !important;
+}
+/********header-section***********/
+.header-section{
+    background-color: #0E1649;
+    border-top: 5px solid #F8A912;
+}
+.header-section p{
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    float: right;
+    margin-right: 70px;
+}
+
+.header-section .top-part{
+    
+padding-top: 25px;
+    
+padding-bottom: 25px;
+}
+.header-section .top-part h4{
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.header-section  .processing{
+    padding: 25px;
+}
+.header-section .processing h4{
+    color: #F8A912;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/********header-section ends****/
+
+
+/********success-alert *******/
+.success-alert{}
+
+.success-alert .success{}
+
+.success-alert p{
+    color: #2DDDD2;
+    font-size: 33px;
+    font-weight: 800;
+}
+/********success-alert ends *******/
+
+/********BASIC INFO SECTION *******/
+
+.BASIC-INFO{}
+.BASIC-INFO .information h1{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-top-right-radius: 30px;
+}
+.BASIC-INFO .information p{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+.BASIC-INFO .information h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: #A9ACBE;
+    padding: 0px;
+    margin-bottom: 3px;
+}
+.BASIC-INFO .information span{
+    height: 1px;
+    width: 100%;
+    display: inline-block;
+    background-color: #d6121200;
+    margin: 0;
+    padding: 0;
+}
+
+.BASIC-INFO .information{
+    background-color: #0E1649;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 20px;
+}
+.BASIC-INFO .basic-info{}
+.BASIC-INFO .basic-info p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.BASIC-INFO .basic-info span{
+    height: 2px;
+    width: 100%;
+    display: inline-block;
+}
+
+.BASIC-INFO .basic-info h6{
+    color: #707696;
+    font-weight: 100;
+    margin-bottom: 0px;
+    text-align: right;
+    margin-top: 1px;
+}
+/********BASIC INFO ENDS *******/
+
+/****verification-details*****/
+.verification-details{
+    margin-top: 50px;
+}
+.verification-details .verification{
+    background-color: #F8A912;
+    color: #090808;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 20px;
+}
+.verification h1{
+      color: #333;
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-top-right-radius: 30px;
+}
+.details p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-left: 80px;
+}
+.details span{
+    height: 2px;
+    width: 100%;
+    display: inline-block;
+}
+.details h6{
+      color: #707696;
+      font-weight: 100;
+      margin-bottom: 0px;
+      text-align: right;
+      margin-top: 1px;
+      margin-right: 90px;
+      font-size: 17px;
+}
+.Timeline-details{
+        margin-top: 50px;
+}
+.Timeline-details .TIMELINE{
+    background-color: #0E1649;
+    color: #FFFFFF;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 20px;
+}
+.TIMELINE h1{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-top-right-radius: 30px;
+}
+.Timeline-details .t-details{}
+.Timeline-details .t-details h5{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.Timeline-details .t-details p{
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.Transaction-details{
+    margin-bottom: 50px;
+}
+.Transaction-details .Transaction{
+    background-color: #0E1649;
+    color: #090808;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 20px;
+}
+.Transaction h1{
+      color: #FFFFFF;
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-top-right-radius: 30px;
+      }
+.tran-details h5{font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 80px;}
+
+    .tran-details p{
+    text-align: right;
+}
+.tran-details .code{
+    background-image: url(../image/BACKGROUND.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Transaction-details .coupon{
+    background-image: url(../image/BACKGROUND.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+.coupon img{
+    padding: 40px;
+}
+.coupon p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #0E1649;
+    margin-bottom: 17px;
+}
+.coupon h6{
+    font-size: 17px;
+    font-weight: 700;
+    color: #0E1649;
+}
+.coupon h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0E1649;
+    margin-bottom: 20px;
+}
+
+.Terms-Cons{
+    background-color: #0E1649;
+    padding: 20px;
+}
+.Terms-Cons .conditions{}
+.Terms-Cons .conditions p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.Terms-Cons .conditions span{
+    color: #fff;
+    font-size: 13px;
+}

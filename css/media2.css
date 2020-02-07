@@ -1,0 +1,91 @@
+/*extra laptop/desktop */
+ @media (max-width: 1199px){
+    .header-section p {
+    margin-right: 35px;
+    font-size: 14px;
+}
+}
+/*extra laptop/desktop */
+/* -large device */
+ @media (max-width: 991px){
+}
+/* large device */
+/* medium device*/
+ @media (max-width: 767px){
+}
+/* medium device */
+/* small device */
+ @media (max-width: 575px){
+    .header-section .top-part h4 {
+        font-size: 20px;
+        margin-top: 60px;
+}
+.BASIC-INFO .basic-info p {
+    font-size: 15px;
+}
+.BASIC-INFO .basic-info h6 {
+    font-size: 15px;
+    margin-top: 0px;
+}
+.details p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.details h6 {
+    margin-right: 30px;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.Timeline-details .t-details h5 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.Timeline-details .t-details p {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.tran-details h5 {
+    font-size: 15px;
+    margin-left: 20px;
+}
+.tran-details p {
+    text-align: right;
+    font-size: 15px;
+}
+.coupon h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.coupon p {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.coupon h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.Terms-Cons .conditions p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.Terms-Cons .conditions span {
+    color: #fff;
+    font-size: 12px;
+}
+}
+    @media(max-width: 470px){
+        .coupon h4 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #0E1649;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ {
+
+    }
